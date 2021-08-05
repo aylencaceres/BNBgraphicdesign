@@ -93,6 +93,10 @@ p {
   margin-left: 10%;
   padding: 40px; }
 
+.botoncarousel {
+  width: 20px;
+  height: 20px; }
+
 .tarjetas {
   height: 800px;
   margin-left: 18%;
