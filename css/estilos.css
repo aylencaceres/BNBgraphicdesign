@@ -1,0 +1,189 @@
+body {
+  text-align: center;
+  font-family: "Bodoni Moda", serif;
+  background-image: url(../imagenes/fondo2.jpg); }
+
+.nav-link {
+  color: #000000;
+  font-family: "Bodoni Moda", serif; }
+
+.nav-link:hover {
+  color: #E27396;
+  transform: scale(1.2, 1.2); }
+
+.social {
+  display: flex;
+  position: fixed;
+  right: 9px;
+  top: 41%;
+  flex-direction: column; }
+
+.tituloIndex {
+  font-size: 90px;
+  text-transform: lowercase;
+  color: #ffb3cb; }
+
+.parrafoIndex {
+  font-family: "Bebas Neue", cursive;
+  color: #bcc4c6;
+  margin-bottom: 8%; }
+
+h1 {
+  margin: 40px;
+  color: #E27396; }
+
+p {
+  color: #E27396;
+  font-size: 20px; }
+
+/*foooter*/
+.footer {
+  background-image: url(../imagenes/fondo2.jpg);
+  width: 100%;
+  height: 200px;
+  padding: 30px 60px;
+  padding-top: 60px;
+  margin-bottom: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "logo links boton" "social links .";
+  align-items: center; }
+
+.btn {
+  margin: 10px; }
+
+#logo {
+  display: flex;
+  width: 40%;
+  height: 40%;
+  padding: 10px; }
+
+.imgfooter {
+  width: 45px;
+  height: 45px; }
+
+.linksfooter {
+  text-decoration: none;
+  color: #000000; }
+
+.linksfooter:hover {
+  color: #E27396; }
+
+/*ilustraciones*/
+.ilustraciones {
+  margin-bottom: 90px; }
+
+.ilustraciones img {
+  margin: 30px;
+  margin-top: 0px;
+  padding: 20px;
+  width: 32%; }
+
+.ilustraciones img:hover {
+  transform: scale(1.2, 1.2);
+  transition: 1s; }
+
+.fotoperfil {
+  margin-bottom: 40px; }
+
+#carouselExampleInterval {
+  width: 80%;
+  height: 80%;
+  margin-left: 10%;
+  padding: 40px; }
+
+.tarjetas {
+  height: 800px;
+  margin-left: 18%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "tarjetas tarjetas" "tarjetas tarjetas";
+  row-gap: 1rem;
+  align-items: center; }
+
+#imgsocial {
+  width: 45px;
+  height: 45px; }
+
+.logo {
+  width: 15%; }
+
+@media only screen and (max-width: 576px) {
+  /*heading*/
+  .tituloIndex {
+    font-size: 60px; }
+  .parrafoIndex {
+    margin: 10px; }
+  /*ilustraciones*/
+  .ilustraciones {
+    margin-bottom: 0px; }
+  .ilustraciones img {
+    width: 80%; }
+  .ilustraciones img:hover {
+    transform: scale(1, 1);
+    transition: 1s; }
+  .social {
+    display: none; }
+  .tarjetas {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0px; }
+  .logo {
+    width: 25%; }
+  #carouselExampleInterval {
+    width: 100%;
+    height: 100%;
+    margin-left: 0%;
+    padding: 0%; }
+  /*foooter*/
+  .footer {
+    background-image: url(/imagenes/fondo2.jpg);
+    width: 100%;
+    height: 200px;
+    padding: 30px 60px;
+    padding-top: 60px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column; } }
+
+@media only screen and (max-width: 1200px) {
+  /*heading*/
+  .tituloIndex {
+    font-size: 60px; }
+  /*ilustraciones*/
+  .ilustraciones {
+    margin-bottom: 0px; }
+  .ilustraciones img {
+    width: 80%; }
+  .ilustraciones img:hover {
+    transform: scale(1, 1);
+    transition: 1s; }
+  .social {
+    display: none; }
+  .tarjetas {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0px; }
+  .logo {
+    width: 15%; }
+  #carouselExampleInterval {
+    width: 100%;
+    height: 100%;
+    margin-left: 0%;
+    padding: 0%; }
+  /*foooter*/
+  .footer {
+    background-image: url(/imagenes/fondo2.jpg);
+    width: 100%;
+    height: 200px;
+    padding: 30px 60px;
+    padding-top: 60px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column; } }

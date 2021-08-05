@@ -1,0 +1,38 @@
+.nav-link{
+color: $negro;
+font-family: $fuentePrincipal;
+}
+
+.nav-link:hover{
+color: $rosaOscuro;
+transform: scale(1.2, 1.2);}
+
+.social {
+display: flex;
+position: fixed;
+right: 9px;
+top: 41%;
+flex-direction: column; }
+
+
+.tituloIndex{
+font-size: 90px;
+text-transform:lowercase;
+color: $rosaClaro;
+}
+
+.parrafoIndex{
+font-family: $fuenteSecundaria;
+color: $grisClaro;
+margin-bottom: 8%;
+}
+
+h1{
+margin: 40px;
+color: $rosaOscuro;
+}
+
+p{
+color: $rosaOscuro;
+font-size: 20px;
+}
